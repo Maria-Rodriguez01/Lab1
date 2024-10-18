@@ -32,7 +32,7 @@ public class Apellido_Nombre_NombreEjercicio {
     System.out.println("Favor ingrese cual es la tarifa por hora del empleado: ");
     Tarifa= entrada.nextDouble();
     
-    Salario=(Horas)*(Tarifa);
+    Salario=((Horas)*(Tarifa))/4;
     
     System.out.println("----- Boleta del Empleado -------");
     System.out.println("Nombre del Empleado: "+Nombre);

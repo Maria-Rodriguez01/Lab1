@@ -15,12 +15,12 @@ public class Ecuaciones_Algebraicas {
     public static void main(String[] args) {
     Scanner entrada= new Scanner(System.in);
     double operaciona,operacionb,operacionc,operaciond,operacione,operacionf,operaciong,operacionh,operacioni,operacionj,operacionk;
-    int valorx = 0, valory=0, valora=0, valorb=0, valorc=0, valord=0, valore=0, valorf=0, valorg=0, valorh=0, valorj=0, valorm=0, valorn=0, valorp=0, valorq=0, valorr=0, valors=0;
+    int valorx=0, valory=0, valora=0, valorb=0, valorc=0, valord=0, valore=0, valorf=0, valorg=0, valorh=0, valorj=0, valorm=0, valorn=0, valorp=0, valorq=0, valorr=0, valors=0;
     
     System.out.println("Favor ingresar un valor para x:");
     valorx= entrada.nextInt();
     System.out.println("Favor ingresar un valor para y:");
-    valorx= entrada.nextInt();
+    valory= entrada.nextInt();
     System.out.println("Favor ingresar un valor para a:");
     valora= entrada.nextInt();
     System.out.println("Favor ingresar un valor para b:");
